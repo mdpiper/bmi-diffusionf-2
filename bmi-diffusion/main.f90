@@ -26,7 +26,7 @@ program bmi_main
      write(*,"(a)")
      write(*,"(a)") "Run the diffusionf model through its BMI with a configuration file."
      write(*,"(a)") "Output is written to the file `bmidiffusionf.out`."
-     return
+     stop
   end if
 
   open(file_unit,file=output_file)
